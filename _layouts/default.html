@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% if page.title %}{{page.title}} . {% endif %}Kitap-İncelemeleri</title>
+    <link rel="stylesheet" href="{{site.baseurl}}/css/main.css" media="screen" title="no title" charset="utf-8">
+    <link href='{{site.baseurl}}/css/bootstrap.min.css' rel='stylesheet' type='text/css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="{{site.baseurl}}/Scripts/bootstrap.min.js"></script>
+    <link rel="shortcut icon" href="{{site.baseurl}}/img/favicon.ico" />
+
+</head>
+
+<body>
+  <div class="container">
+    <header>
+
+            {% include navbar.html %}
+    </header>
+
+    <div class="panel panel-default">
+      <div class="panel-body">
+        {{content}}
+
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,18 @@
+---
+layout: default
+title: Blog
+---
+<div class="page-header">
+  <h1>Blogs</h1>
+</div>
+
+<div class="">
+    <ul>
+        {% for books in site.books %}
+        <li>
+            <h4><a href="{{site.baseurl}}{{books.url}}">{{books.title}}</a><small> -
+              <!-- <a href="{{site.baseurl}}/categories/{{books.category | downcase}}/">{{books.category}}</a> - {{ books.date | date: "%-d %B %Y" }}</small></h4> -->
+        </li>
+        {% endfor %}
+    </ul>
+</div>

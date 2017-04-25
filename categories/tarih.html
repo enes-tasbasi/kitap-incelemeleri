@@ -1,0 +1,15 @@
+---
+layout: default
+title: tarih
+---
+
+{% include category.html category='tarih' %}
+
+<ul>
+    {% for book in site.categories.tarih %}
+    <li>
+      <h4><a href="{{site.baseurl}}/{{post.url}}">{{ book.title }}</a></h4>
+    </li>
+    {% endfor %}
+
+</ul>

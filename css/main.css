@@ -1,0 +1,37 @@
+/** {
+  outline: 1px solid red;
+}*/
+.body-div {
+    padding: 5px;
+}
+
+.custom-div {
+  background-color: #ccc;
+  border-radius: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+p {
+  font-family: 'Indie Flower', cursive;
+  font-size: 18px;
+  color: black;
+}
+
+.custom-navbar {
+  background-color: #ccc;
+}
+
+.img-property {
+  height: 400px;
+  width: 200px;
+}
+
+.wrap-text {
+  word-wrap: break-word;
+}
+/*
+.book-info {
+  float: right;
+
+}*/

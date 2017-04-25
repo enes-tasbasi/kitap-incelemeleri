@@ -1,0 +1,11 @@
+
+
+baseurl: /Kitaplar
+
+favicon: "/img/t.png"
+
+
+
+exclude: ['.gitignore']
+
+permalink: pretty

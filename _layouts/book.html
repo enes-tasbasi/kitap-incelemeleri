@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+<div class="page-header">
+  <h1>{{page.title}}<small> Categori: <a href="{{site.baseurl}}/categories/{{page.category | downcase}}/">{{page.category}}</a></small></h1>
+</div>
+
+<div class="row">
+  <div class="wrap-text col-md-10">
+    {{content}}
+  </div>
+
+  <div class="panel panel-default col-md-2"><img class="img-responsive img-rounded img-property"  src="{{site.baseurl}}/img/{{page.img}}" alt="">
+  <h4><a href="{{page.link}}">Daha Fazla Bilgi</a></h4>
+  </div>
+</div>
