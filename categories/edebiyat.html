@@ -1,12 +1,12 @@
 ---
 layout: default
-title: tarih
+title: edebiyat
 ---
 
-{% include category.html category='tarih' %}
+{% include category.html category='edebiyat' %}
 
 <ul>
-    {% for book in site.categories.tarih %}
+    {% for book in site.categories.edebiyat %}
     <li>
       <h4><a href="{{site.baseurl}}/{{book.url}}">{{ book.title }}</a></h4>
     </li>
