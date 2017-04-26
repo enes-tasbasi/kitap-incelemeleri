@@ -36,6 +36,10 @@ p {
 .wrap-text {
   word-wrap: break-word;
 }
+
+.bottom-margin {
+  margin-bottom: 30px;
+}
 /*
 .book-info {
   float: right;
