@@ -1,6 +1,7 @@
 /** {
   outline: 1px solid red;
 }*/
+
 .body-div {
     padding: 5px;
 }
@@ -25,6 +26,11 @@ p {
 .img-property {
   height: 400px;
   width: 200px;
+}
+
+.cntr {
+  display: block;
+  margin: 0 auto;
 }
 
 .wrap-text {
